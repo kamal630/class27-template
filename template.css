@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background: rgb(34,195,163);
+    padding: 43px;
+   
+}
+.header .logo{
+    width: 30%;
+    float: left;
+    color: white;
+    line-height: 0%;
+    font-size: 35px;
+    font-weight: normal;
+
+}
+.header .checkbutton i{
+    color: white;
+    font-size: 35px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.header .menu{
+    width: 70%; 
+   float: right;
+    text-align: right;
+    line-height: 0%;
+   
+}
+
+.header .menu ul li{
+  
+ 
+  display: inline-block;
+    list-style: none;
+
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 15px;
+    display: inline-block;
+    transition: .4s;
+}
+
+clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.baner{
+    text-align: center;
+    background: url(./img/header-bg01.jpg) no-repeat center ;
+    background-size: cover;
+    color: white;
+     padding: 185px;
+}
+.baner .title{
+    font-size: 28px;
+    text-transform: uppercase;
+   
+}
+.baner .subtitle {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    color: #ffffffd6;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+ .baner .button button {
+    border: 2px solid white;
+    background: none;
+    padding: 11px 23px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+/* service */
+.service{
+    text-align: center;
+    padding: 100px 0;
+    padding-bottom: 120px;
+    border-bottom: 3px solid #22c3a3;
+    color: rgb(85,85,85);
+}
+
+.service .title h1{
+    font-size: 35px;
+    margin: 25px 0px;
+    color: rgb(85,85,85);
+}
+.service .title p{
+    font-family: sans-serif;
+    margin-bottom: 100px;
+    color: rgb(85,85,85);
+}
+.service .all-box{
+    font-family: sans-serif;
+    clear: both;
+    margin: auto;
+}
+.service .all-box .box {
+   display: inline-block;
+    width: 220px;
+   margin: 0 50px;
+}
+.service .all-box .box .icon{
+    color: #22c3a3;
+    font-size: 42px;
+    margin: 30px 0;
+}
+.service .all-box .box h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+
+/*  about  */
+.about{
+padding-top: 90px;
+ text-align: center; 
+ color: rgb(85,85,85);
+margin-bottom: 100px;
+
+
+ 
+
+}
+.about .title h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about .title p{
+    font-family: sans-serif;
+    margin-bottom: 65px;
+}
+.about .box1 img{
+  float: left;
+  width: 40%;
+  margin-left: 50px;
+}
+.about .box2 div{
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+.about .box2 div h2{
+    margin: 18px;
+    margin-left: 0;
+   font-weight: normal;
+   
+    
+}
+.about .box2 div p{
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+
+/* .contuct */
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contuct{
+    
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(85,85,85);
+    margin-top: 80px;
+    padding: 80px 0;
+    background-color: rgb(246,246,246);
+    
+
+}
+.contuct  .title h2{
+    font-family: normal;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.contuct .title p{
+    font-family: sans-serif;
+    margin-bottom: 65px;
+}
+.contuct .address div{
+    display: inline-block;
+    margin: 0 80px;
+    
+}
+.contuct .address div .icon{
+    color: #22c3a3;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contuct .address div  p{
+    line-height: 25px;
+}
+.vam{
+    vertical-align: middle;
+}
+
+ .footer-icon{
+     text-align: center;
+     background: #22c3a3;
+     padding: 20px 0;
+ }
+ .footer-icon i{
+     color: white;
+   font-size: 20px;
+   margin: 0 10px;
+ }
+ footer{
+     background-color: rgb(34,34,34);
+     text-align: center;
+     color: gray;
+     font-family: sans-serif;
+     padding: 17px 0;
+     font-size: 15px;
+ }
